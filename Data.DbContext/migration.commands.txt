@@ -1,0 +1,3 @@
+﻿dotnet restore
+dotnet ef migrations add init -s ..\ApiGateway\ApiGateway.csproj --context ApplicationContext
+dotnet ef database update -s ..\ApiGateway\ApiGateway.csproj --context ApplicationContext
